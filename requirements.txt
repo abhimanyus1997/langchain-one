@@ -1,0 +1,16 @@
+langchain[llm]
+gpt4all
+chromadb
+langchainhub
+openai
+python-dotenv
+streamlit
+notebook
+numpy
+scipy
+scikit-learn
+pandas
+matplotlib
+seaborn
+jupyter
+-e .

@@ -1,0 +1,12 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment directory
+.venv/
+
+# Ignore log directory
+log/
+
+# Ignore any files inside the models directory
+models/*

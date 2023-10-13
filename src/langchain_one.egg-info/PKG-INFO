@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: langchain-one
+Version: 0.1
+Summary: LLM App made using Langchain Framework for Custom Data
+Author: Abhimanyu Singh
+Author-email: abhimanyus1997@gmail.com
+Requires-Dist: langchain[llm]
+Requires-Dist: streamlit
