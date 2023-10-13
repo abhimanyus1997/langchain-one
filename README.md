@@ -1,5 +1,9 @@
 # 🚀 langchain-one
 
+<a target="_blank" href="https://colab.research.google.com/github/abhimanyus1997/langchain-one/blob/master/tests/test.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 LLM App made using [LangChain Framework](#langchain-framework) for Custom Data
 
 ## LLM Models available:
