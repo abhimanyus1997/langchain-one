@@ -13,7 +13,7 @@ Powered by
 
 Feel free to reach out to Abhimanyu Singh for discussions, collaborations, or questions related to robotics, deep learning, IoT, or web development:
 
-- ✉️ **Email:** [Maile me at abhimanyus1997@gmail.com](mailto:abhimanyus1997+github@gmail.com)
+- ✉️ **Email:** [Maile me](mailto:abhimanyus1997+github@gmail.com)
 - 💼 **LinkedIn:** [Abhimanyu Singh](https://www.linkedin.com/in/abhimanyu-singh-7a4b4111a)
 - 🐦 **Twitter:** [@abhimanyus1997](https://twitter.com/abhimanyus1997)
 
