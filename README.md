@@ -7,8 +7,9 @@
 LLM App made using [LangChain Framework](#langchain-framework) for Custom Data
 
 ## LLM Models available
-
+### Integrated
 * [**Mistral-7b openorca**](https://gpt4all.io/models/gguf/mistral-7b-openorca.Q4_0.gguf) - Best overall fast chat model
+### To-be integrated
 * [**gpt4all Falcon-q4_0**](https://gpt4all.io/models/gguf/gpt4all-falcon-q4_0.gguf) - Very fast model with good quality
 * [**Mistral-7b instruct**](https://gpt4all.io/models/gguf/mistral-7b-instruct-v0.1.Q4_0.gguf) - Best overall fast instruction following model
 
@@ -51,8 +52,9 @@ LangChain is a powerful and adaptable framework that is continually evolving and
 ## How to Run
 
 To get Langchain-one up and running, follow these steps:
+1. Download model and place it in `model` directory
 
-1. Clone the repository to your local machine.
+2. Clone the repository to your local machine.
  
     ```
     git clone https://github.com/abhimanyus1997/langchain-one.git
@@ -60,7 +62,7 @@ To get Langchain-one up and running, follow these steps:
     ```
 
     
-2. Create a virtual environment using conda or your preferred virtual environment tool and Install the required packages from the `requirements.txt` file:
+3. Create a virtual environment using conda or your preferred virtual environment tool and Install the required packages from the `requirements.txt` file:
 
     ```
     conda create --name langchain-one-env
@@ -68,7 +70,7 @@ To get Langchain-one up and running, follow these steps:
     pip install -r requirements.txt
     ```
     
-3. Run the following command to start Langchain-one:
+4. Run the following command to start Langchain-one:
 
     ```
     chainlit run /src/app.py -w
