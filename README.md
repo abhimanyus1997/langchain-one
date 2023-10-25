@@ -53,18 +53,22 @@ LangChain is a powerful and adaptable framework that is continually evolving and
 To get Langchain-one up and running, follow these steps:
 
 1. Clone the repository to your local machine.
-2. Create a virtual environment using conda or your preferred virtual environment tool.
-3. Install the required packages from the `requirements.txt` file:
+ 
+    ```
+    git clone https://github.com/abhimanyus1997/langchain-one.git
+    cd langchain-one
+    ```
+
+    
+2. Create a virtual environment using conda or your preferred virtual environment tool and Install the required packages from the `requirements.txt` file:
 
     ```
     conda create --name langchain-one-env
     conda activate langchain-one-env
     pip install -r requirements.txt
     ```
-
-4. Open a command prompt or terminal within your virtual environment.
-
-5. Run the following command to start Langchain-one:
+    
+3. Run the following command to start Langchain-one:
 
     ```
     chainlit run /src/app.py -w
