@@ -4,6 +4,7 @@ __pycache__/
 
 # Ignore virtual environment directory
 .venv/
+.conda/
 
 # Ignore log directory
 log/
