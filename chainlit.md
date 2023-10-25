@@ -1,14 +1,20 @@
-# Welcome to Chainlit! 🚀🤖
+# Welcome to Langchain-one! 🚀🤖
 
-Hi there, Developer! 👋 We're excited to have you on board. Chainlit is a powerful tool designed to help you prototype, debug and share applications built on top of LLMs.
+👋 Hi there, I'm **Abhimanyu Singh** - Robotics Engineer 🤖
+Let's explore the power of Language Models (LLM) without privacy concerns!
 
-## Useful Links 🔗
+## Tech Stacks:
+Powered by
+ * Langchain for LLM framework
+ * Chainlit for UI
+ * GPT4All for Models
 
-- **Documentation:** Get started with our comprehensive [Chainlit Documentation](https://docs.chainlit.io) 📚
-- **Discord Community:** Join our friendly [Chainlit Discord](https://discord.gg/k73SQ3FyUh) to ask questions, share your projects, and connect with other developers! 💬
+## Let's Connect 📫
 
-We can't wait to see what you create with Chainlit! Happy coding! 💻😊
+Feel free to reach out to Abhimanyu Singh for discussions, collaborations, or questions related to robotics, deep learning, IoT, or web development:
 
-## Welcome screen
+- ✉️ **Email:** [Maile me at abhimanyus1997@gmail.com](mailto:abhimanyus1997+github@gmail.com)
+- 💼 **LinkedIn:** [Abhimanyu Singh](https://www.linkedin.com/in/abhimanyu-singh-7a4b4111a)
+- 🐦 **Twitter:** [@abhimanyus1997](https://twitter.com/abhimanyus1997)
 
-To modify the welcome screen, edit the `chainlit.md` file at the root of your project. If you do not want a welcome screen, just leave this file empty.
+I'm always open to connecting and sharing knowledge in these exciting fields. Let's build the future together!
