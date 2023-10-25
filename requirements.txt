@@ -1,8 +1,19 @@
+gradio
+openai
+langchain
+chromadb
+tiktoken
+pypdf
+pymupdf
+chainlit
+
+# Packages with extras
 langchain[llm]
 gpt4all
 chromadb
 langchainhub
-openai
+
+# Other dependencies
 python-dotenv
 streamlit
 notebook
@@ -13,4 +24,3 @@ pandas
 matplotlib
 seaborn
 jupyter
--e .
