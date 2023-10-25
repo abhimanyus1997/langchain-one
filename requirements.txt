@@ -10,6 +10,7 @@ chainlit
 # Packages with extras
 langchain[llm]
 gpt4all
+pyllamacpp
 chromadb
 langchainhub
 

@@ -2,10 +2,11 @@ import os
 import requests
 import logging
 from tqdm import tqdm
+from pathlib import Path
 
 # Configuration Constants
 MODEL_URL = "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/resolve/main/llama-2-7b-chat.ggmlv3.q4_0.bin"
-MODEL_PATH = "E:\projects\LLM\models\llama-2-7b-chat.ggmlv3.q4_0.bin"
+MODEL_PATH = "..\models\llama-2-7b-chat.ggmlv3.q4_0.bin"
 
 # Set up logging
 log_directory = os.path.join(os.path.dirname(os.path.dirname(__file__)), "log")
