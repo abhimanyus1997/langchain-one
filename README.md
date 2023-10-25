@@ -7,8 +7,11 @@
 LLM App made using [LangChain Framework](#langchain-framework) for Custom Data
 
 ## LLM Models available:
-* [__GPT4All Falcon__](https://huggingface.co/nomic-ai/gpt4all-falcon-ggml/resolve/main/ggml-model-gpt4all-falcon-q4_0.bin) - Best overall smaller model
-* [__LLama2 7Bn__](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/resolve/main/llama-2-7b-chat.ggmlv3.q4_0.bin) - New LLaMA2 model from Meta AI.
+
+* [__Mistral-7b openorca__](https://gpt4all.io/models/gguf/mistral-7b-openorca.Q4_0.gguf) - Best overall fast chat model
+* [__gpt4all Falcon-q4_0__](https://gpt4all.io/models/gguf/gpt4all-falcon-q4_0.gguf) - Very fast model with good quality
+* [__Mistral-7b instruct__](https://gpt4all.io/models/gguf/mistral-7b-instruct-v0.1.Q4_0.gguf) - Best overall fast instruction following model
+
 
 ## LangChain Framework
 
@@ -46,6 +49,6 @@ LangChain is built around the following key concepts:
 
 LangChain is a powerful and adaptable framework that is continually evolving and supported by a dedicated community of users and contributors. Start using [LangChain](https://langchain.io) to enhance your natural language processing applications with large language models.
 
-Author: Abhimanyu Singh  
+Author: Abhimanyu Singh
 Email: [abhimanyus1997@gmail.com](mailto:abhimanyus1997@gmail.com)
 LinkedIn: [Let's Connect](https://www.linkedin.com/in/abhimanyus1997)
