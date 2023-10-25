@@ -1,6 +1,6 @@
 [project]
 # Whether to enable telemetry (default: true). No personal data is collected.
-enable_telemetry = true
+enable_telemetry = false
 
 # List of environment variables to be provided by each user to use the app.
 user_env = []
@@ -19,11 +19,11 @@ cache = false
 prompt_playground = true
 
 # Authorize users to upload files with messages
-multi_modal = true
+multi_modal = false
 
 [UI]
 # Name of the app and chatbot.
-name = "Chatbot"
+name = "RoboBOT"
 
 # Show the readme while the conversation is empty.
 show_readme_as_default = true
@@ -41,7 +41,7 @@ default_expand_messages = false
 hide_cot = false
 
 # Link to your github repo. This will add a github button in the UI's header.
-# github = ""
+github = "https://github.com/abhimanyus1997/langchain-one"
 
 # Specify a CSS file that can be used to customize the user interface.
 # The CSS file can be served from the public directory or via an external link.
