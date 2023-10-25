@@ -4,6 +4,7 @@ from langchain.chains import LLMChain
 from langchain.llms import GPT4All
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 import chainlit as cl
+import pypdf
 
 
 MODEL_NAME = "mistral-7b-openorca.Q4_0.gguf"
@@ -15,6 +16,18 @@ callbacks = [StreamingStdOutCallbackHandler()]
 template = """Question: {question}
 
 Answer: Let's think step by step."""
+
+def read_pdf_text(pdf_path):
+    text = ""
+    with open(pdf_path, 'rb') as pdf_file:
+        pdf_reader = PyPDF2.PdfFileReader(pdf_file)
+        for page_num in range(pdf_reader.numPages):
+            page = pdf_reader.getPage(page_num)
+            text += page.extractText()
+    return text
+
+
+
 
 @cl.on_chat_start
 def main():

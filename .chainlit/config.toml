@@ -19,7 +19,7 @@ cache = false
 prompt_playground = true
 
 # Authorize users to upload files with messages
-multi_modal = false
+multi_modal = true
 
 [UI]
 # Name of the app and chatbot.
