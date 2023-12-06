@@ -7,7 +7,7 @@ Let's explore the power of Language Models (LLM) without privacy concerns!
 Powered by
  * Langchain for LLM framework
  * Chainlit for UI
- * GPT4All for Models
+ * cTransformers for python binding for Transformer models in C++
 
 ## Let's Connect 📫
 
