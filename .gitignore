@@ -3,8 +3,10 @@ __pycache__/
 *.pyc
 
 # Ignore virtual environment directory
-.venv/
-.conda/
+.venv/*
+.conda/*
+.env/*
+
 
 # Ignore log directory
 log/

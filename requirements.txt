@@ -6,13 +6,16 @@ tiktoken
 pypdf
 pymupdf
 chainlit
+easyocr
 
 # Packages with extras
 langchain[llm]
 gpt4all
-pyllamacpp
+ctransformers
+pyllamacppc
 chromadb
 langchainhub
+
 
 # Other dependencies
 python-dotenv
@@ -25,3 +28,4 @@ pandas
 matplotlib
 seaborn
 jupyter
+pillow
