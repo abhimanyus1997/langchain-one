@@ -7,9 +7,9 @@
 LLM App made using [LangChain Framework](#langchain-framework) for Custom Data
 
 ## LLM Models available
-### Integrated
+### Integrated LLM
 * [**Mistral-7b openorca**](https://gpt4all.io/models/gguf/mistral-7b-openorca.Q4_0.gguf) - Best overall fast chat model
-### To-be integrated
+### Other Recommended LLM integration 
 * [**gpt4all Falcon-q4_0**](https://gpt4all.io/models/gguf/gpt4all-falcon-q4_0.gguf) - Very fast model with good quality
 * [**Mistral-7b instruct**](https://gpt4all.io/models/gguf/mistral-7b-instruct-v0.1.Q4_0.gguf) - Best overall fast instruction following model
 
