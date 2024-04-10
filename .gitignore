@@ -14,3 +14,4 @@ log/
 # Ignore any files inside the models directory
 models/*
 src/.chainlit/config.toml
+tests/langchain-starter/.env
