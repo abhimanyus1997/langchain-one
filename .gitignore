@@ -15,3 +15,4 @@ log/
 models/*
 src/.chainlit/config.toml
 tests/langchain-starter/.env
+.env
