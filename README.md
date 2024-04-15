@@ -77,3 +77,21 @@ To run Langchain-One on your local machine, follow these steps:
 **Author:** Abhimanyu Singh  
 **Email:** [abhimanyus1997@gmail.com](mailto:abhimanyus1997@gmail.com)  
 **LinkedIn:** [Connect on LinkedIn](https://www.linkedin.com/in/abhimanyus1997)  
+
+
+## Disclaimer
+
+LangOne Artist is an educational project showcasing the use of language and deep learning models for generating artwork. This project utilizes advanced machine learning techniques to create images based on textual prompts provided by the user.
+
+**Warning:** This application may generate content that could be considered Not Safe For Work (NSFW). Viewer discretion is advised. The generated images may contain artistic representations that some users may find inappropriate or offensive.
+
+This project is intended for educational purposes only. The generated artwork should not be considered as the sole representation of any real-world entity or concept. The quality and appropriateness of the generated images may vary depending on the provided prompts and model configurations.
+
+Users are solely responsible for the prompts they input and the content they generate using this application. The developers of LangOne Artist do not endorse or promote any specific use of the generated content, and users are encouraged to use the application responsibly and ethically.
+
+By using this application, you agree to take full responsibility for any content generated and to use it in compliance with applicable laws and regulations. The developers of LangchainOne  disclaim any liability for the use or misuse of the generated content.
+
+
+## Acknowledgements
+
+LangchainOne relies on open-source libraries and pre-trained LLM and Generative AI models developed by various contributors in the machine learning community. I acknowledge and appreciate their contributions to the field.
