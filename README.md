@@ -74,6 +74,6 @@ To run Langchain-One on your local machine, follow these steps:
 
 ## Author Information
 
-**Author:** Abhimanyu Singh
-**Email:** [abhimanyus1997@gmail.com](mailto:abhimanyus1997@gmail.com)
-**LinkedIn:** [Connect on LinkedIn](https://www.linkedin.com/in/abhimanyus1997)
+**Author:** Abhimanyu Singh  
+**Email:** [abhimanyus1997@gmail.com](mailto:abhimanyus1997@gmail.com)  
+**LinkedIn:** [Connect on LinkedIn](https://www.linkedin.com/in/abhimanyus1997)  
