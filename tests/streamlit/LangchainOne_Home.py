@@ -5,13 +5,12 @@ st.set_page_config(
     page_icon="🔗",
 )
 
-st.write("# Welcome to LangchainOne Starter")
+st.write("# Welcome to LangchainOne")
 
 
 st.markdown(
     """
 
-# LangchainOne
 
 LangchainOne is an AI-powered assistant designed to provide helpful responses to user queries. It leverages advanced large language models to understand and generate human-like text, enabling it to assist with a wide range of tasks and questions.
 
