@@ -1,10 +1,13 @@
 import streamlit as st
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-
 import os
 from dotenv import load_dotenv
 from pathlib import Path
+
+st.set_page_config(page_title="LangchainOne Sandbox", page_icon="⌛")
+
+
 
 HOME = Path.cwd()
 # Load environment variables
@@ -46,7 +49,7 @@ elif llm_selection == "CTransformer":
     from langchain_community.llms import CTransformers
     if MODEL_NAME == 'mistral':
         llm = CTransformers(
-            model=Path(HOME).joinpath("models\mistral-7b-openorca.Q4_0.gguf").as_posix(),
+            model=Path(HOME).joinpath("models/mistral-7b-openorca.Q4_0.gguf").as_posix(),
             model_type=MODEL_NAME,
             temperature = TEMPERATURE,
             gpu_layers=50
@@ -55,7 +58,7 @@ elif llm_selection == "CTransformer":
         llm = CTransformers(
             # model="E:\projects\langchain-one\models\mistral-7b-instruct-v0.2.Q4_K_M.gguf",
             model=Path(HOME).joinpath(
-                "models\mistral-7b-instruct-v0.2.Q4_K_M.gguf").as_posix(),
+                "models/mistral-7b-instruct-v0.2.Q4_K_M.gguf").as_posix(),
             model_type=MODEL_NAME,
             temperature=TEMPERATURE,
             gpu_layers=50
