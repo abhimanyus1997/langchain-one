@@ -6,3 +6,12 @@ ipywidgets
 ipykernel
 streamlit
 chainlit
+accelerate
+
+torch
+--index-url https://download.pytorch.org/whl/cu118
+
+transformers[torch]
+diffusers[torch]
+peft
+-e .
