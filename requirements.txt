@@ -2,6 +2,10 @@ langchain
 langchain-core
 langchain-community
 langsmith
+langserve
+fastapi
+uvicorn[standard]
+
 ipywidgets
 ipykernel
 streamlit
