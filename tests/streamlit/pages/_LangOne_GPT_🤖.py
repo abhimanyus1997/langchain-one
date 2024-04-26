@@ -41,6 +41,8 @@ USER_MODEL = st.sidebar.selectbox(
     "Select LLM Model", DOWNLOADED_MODELS, index=0)
 MODEL_PATH = MODELS_FOLDER / USER_MODEL
 
+
+
 # Model Type options
 MODEL_TYPES = {
     "Mistral": "mistral",
@@ -53,6 +55,7 @@ MODEL_TYPES = {
     "StarCoder, StarChat": "gpt_bigcode",
     "Dolly V2": "dolly-v2",
     "Replit": "replit",
+    "Gemma" : "gemma"
 }
 selected_model_type = st.sidebar.selectbox(
     "Select Model Type", list(MODEL_TYPES.keys()))
@@ -62,10 +65,25 @@ if not MODEL_PATH.exists():
         "Error: Model file not found. Please make sure the model file exists at the specified path.")
     st.stop()
 
-# Initialize Langchain LLM
-llm = CTransformers(model=MODEL_PATH.as_posix(),
-                    model_type=MODEL_TYPES[selected_model_type]
-                    )
+# Running Gemma on Ollama Framework
+if MODEL_TYPES[selected_model_type] == "gemma":
+    from langchain_community.llms import Ollama
+    llm = Ollama(model=MODEL_TYPES[selected_model_type])
+else:
+    # Initialize Langchain LLM
+    max_new_tokens = st.sidebar.number_input(
+        "Max New Tokens (Output)", value=256, step=1)
+    seed = st.sidebar.number_input(
+        "Seed", value=-1, step=1)
+    CONTEXT_LENGTH = st.sidebar.number_input(
+        "Max Context Length", value=-1, step=1)
+    llm = CTransformers(model=MODEL_PATH.as_posix(),
+                        model_type=MODEL_TYPES[selected_model_type],
+                        context_length=CONTEXT_LENGTH,
+                        max_new_tokens=max_new_tokens,
+                        seed=seed
+                        )
+
 
 # Define the prompt template
 prompt = ChatPromptTemplate.from_messages([
