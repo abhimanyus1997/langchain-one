@@ -18,11 +18,11 @@ def summarize(server_url):
         st.write(response["output"])
 
 # Streamlit UI for paraphrasing
-def paraphrase(server_url):
+def paraphrase(server_url, tone):
     st.title("Text Paraphrasing")
     content = st.text_area("Enter text to paraphrase")
     if st.button("Paraphrase"):
-        data = {'input':{"content": content}}
+        data = {'input':{"tone":tone,"content": content}}
         response = send_request(server_url, "/paraphrase/invoke", data)
         st.subheader("Paraphrased Text")
         st.write(response["output"])
@@ -41,7 +41,9 @@ def main():
         if option == "Summarize":
             summarize(server_url)
         elif option == "Paraphrase":
-            paraphrase(server_url)
+            tone = st.sidebar.selectbox(
+                "Select tone", ("Academic", "Casual", "Formal", "Funny", "Poetic"))
+            paraphrase(server_url, tone)
     else:
         st.sidebar.warning("Please enter the FastAPI server URL.")
 

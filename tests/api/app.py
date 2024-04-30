@@ -55,7 +55,7 @@ summary_prompt = ChatPromptTemplate.from_template(
     "Compose a concise summary by condensing the provided content without omitting crucial details and refraining from including any non-factual information.\nContent:{content}")
 
 paraphrase_prompt = ChatPromptTemplate.from_template(
-    "Rephrase the provided text while maintaining its original meaning and context, using different vocabulary and expressions. Ensure that all essential information is retained within a similar word limit.\nContent:{content}")
+    "Rephrase the provided text in a {tone} tone, while maintaining its original meaning and context, using different vocabulary and expressions. Ensure that all essential information is retained within a similar word limit.\nContent:{content}")
 
 # Add routes for summarization and paraphrasing
 add_routes(
