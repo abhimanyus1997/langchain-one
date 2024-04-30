@@ -5,6 +5,7 @@ langsmith
 langserve
 fastapi
 uvicorn[standard]
+sse_starlette
 
 ipywidgets
 ipykernel
