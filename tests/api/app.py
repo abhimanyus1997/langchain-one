@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 from pathlib import Path
 
 # MODEL FILE
-MODEL_FILE = Path("models\mistral-7b-instruct-v0.2.Q4_K_M.gguf")
+MODEL_FILE = Path("models\Hermes-2-Pro-Mistral-7B.Q4_K_M.gguf")
 
 llm = CTransformers(
     model=Path(MODEL_FILE).as_posix(),
