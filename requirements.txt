@@ -6,6 +6,7 @@ langserve
 fastapi
 uvicorn[standard]
 sse_starlette
+pypdf
 
 ipywidgets
 ipykernel
