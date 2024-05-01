@@ -7,6 +7,9 @@ fastapi
 uvicorn[standard]
 sse_starlette
 pypdf
+sentence_transformers
+langchain-chroma
+faiss-cpu
 
 ipywidgets
 ipykernel
